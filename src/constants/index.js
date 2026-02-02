@@ -35,9 +35,10 @@ import {
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 import wanderlustImg from "../assets/wanderlust.webp";
-import razorpayImg from "../assets/razorpayclone.webp";
-import shoppingCartImg from "../assets/shoppingcart.webp";
-
+// import razorpayImg from "../assets/razorpayclone.webp";
+// import shoppingCartImg from "../assets/shoppingcart.webp";
+import talksphereImg from "../assets/talksphereImg.webp";
+import evidenceIntegrityImg from "../assets/evidenceIntegrityImg.webp";
 
 export const navLinks = [
 
@@ -223,50 +224,66 @@ const projects = [
     source_code_link: "https://github.com/arunby15/WanderLust",
   },
   {
-    name: "Razorpay Landing Page Clone",
+    name: "TalkSphere",
     description:
-      "This is a fully responsive clone of the official Razorpay landing page, developed using HTML, CSS, and JavaScript. The goal of this project is to replicate the look and feel of a real-world fintech homepage, focusing on clean UI/UX design, responsive layout, and modern web practices.",
+    "TalkSphere is a real-time chat application that enables users to communicate instantly with seamless message delivery using WebSocket technology. It provides secure authentication, active user status tracking, and message persistence with MongoDB. Built with Node.js, Express.js, and Socket.io, it offers a smooth and responsive chatting experience with a modern UI.",
     tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailWindCSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "BootStrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shoppingCartImg,
-    source_code_link: "https://github.com/arunby15/NeoPay",
+    {
+      name: "JavaScript",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "express",
+      color: "white-text-gradient",
+    },
+    {
+      name: "node",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "socket.io",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "green-text-gradient",
+    },
+  ],
+    image: talksphereImg,
+  source_code_link: "https://github.com/arunby15/TalkSphere",
   },
   {
-    name: "React Redux Shopping Cart",
+    name: "Evidence Integrity",
     description:
-      "This is a responsive and modern Shopping Cart Web Application built using React and Redux, deployed on Netlify. It showcases the power of state management using Redux in handling cart operations and provides users with a seamless e-commerce experience.",
+    "Evidence Integrity is a blockchain-based web application that ensures the security, transparency, and authenticity of digital evidence. It allows an admin to log in via MetaMask, upload and verify evidence files, and store their hashes securely on the Ethereum Sepolia testnet. The system integrates smart contracts deployed through Remix IDE, MongoDB for file metadata storage, and Express.js for backend operations.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: razorpayImg,
-    source_code_link: "https://github.com/arunby15/Shopping-Cart-React-Redux",
+    {
+      name: "JavaScript",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "express",
+      color: "white-text-gradient",
+    },
+    {
+      name: "node",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "green-text-gradient",
+    },
+    {
+      name: "ethereum",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "blockchain",
+      color: "purple-text-gradient",
+    },
+  ],
+    image: evidenceIntegrityImg,
+  source_code_link: "https://github.com/arunby15/Evidence-integrity-Blockchain",
   },
 ];
 
